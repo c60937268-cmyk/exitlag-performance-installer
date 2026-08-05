@@ -1,0 +1,7 @@
+# Language detection rules
+src/**/*.tsx linguist-detectable
+docs/index.html linguist-vendored
+
+docs/* linguist-vendored
+build/* linguist-vendored
+Cargo.lock linguist-generated
